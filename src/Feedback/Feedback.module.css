@@ -1,0 +1,109 @@
+.FeedbackTitle h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    color: #0f394c;
+}
+.FeedbackTitle h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.Form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 10%;
+}
+form{
+    width: 100%;
+}
+input{
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 14px;
+    font-weight: 400;
+}
+textarea{
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 14px;
+    font-weight: 400;
+}
+.Contact{
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Name{
+    width: 50%;
+}
+.Name input{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 90%;
+}
+.Email{
+    width: 50%;
+}
+.Email input{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 90%;
+}
+.Subject{
+    width: 100%;
+    padding: 10px 0;
+}
+.Subject input{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 95%;
+}
+.Message{
+    width: 100%;
+    padding: 10px 0;
+}
+.Message textarea{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 95%;
+}
+.Send{
+    width: 100%;
+    padding: 10px 0;
+}
+.Send input{
+    background-color: #ff6600;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.Send input:hover{
+    background-color: #76c7ed;
+}
+@media screen and (max-width: 750px){
+    .Form{
+        padding: 5%;
+    }
+    .Contact{
+        display: block;
+    }
+    .Name{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .Email{
+        width: 100%;
+        padding: 10px 0;
+    }
+}
