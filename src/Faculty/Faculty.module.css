@@ -1,0 +1,39 @@
+.SectionTitle h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0f394c;
+}
+.Faculty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    padding: 20px;
+    width: 15%;
+    min-width: 100px;
+}
+.item h2{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #0f394c;
+    font-family: "Dosis" , sans-serif;
+}
+.item img{
+    width: 100%;
+    max-width: 200px;
+}
+@media screen and (max-width: 750px) {
+    .item{
+        margin: 20px;
+        width: 70%;
+    }
+}
