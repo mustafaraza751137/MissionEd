@@ -17,28 +17,28 @@ const Footer = (props) => {
                 <h4>Useful Links</h4>
                 <ul>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">Home</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="# " onClick={() => props.onHomeButtonClick(0)}>Home</a>
                     </li>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">About us</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="#/">About us</a>
                     </li>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">Services</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="#/">Services</a>
                     </li>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">Careers</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="#/">Careers</a>
                     </li>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">Terms of service</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="#/">Terms of service</a>
                     </li>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">Privacy policy</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="#/">Privacy policy</a>
                     </li>
                 </ul>
             </div>
@@ -46,24 +46,24 @@ const Footer = (props) => {
                 <h4>Our Services</h4>
                 <ul>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">MissionEd Store</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="# " onClick={() => props.onClassOptionClick(0)}>MissionEd Store</a>
                     </li>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">MissionEd Classes</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="# " onClick={() => props.onClassOptionClick(1)}>MissionEd Classes</a>
                     </li>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">MissionEd classes (School)</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="# " onClick={() => props.onClassOptionClick(2)}>MissionEd Classes (School)</a>
                     </li>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">MissionEd Referral</a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="#/">MissionEd Referral</a>
                     </li>
                     <li>
-                        <i class="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">MissionEd Pro <span class={classes.badge}>NEW</span></a>
+                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <a href="#/">MissionEd Pro <span className={classes.badge}>NEW</span></a>
                     </li>
                 </ul>
             </div>
@@ -71,8 +71,8 @@ const Footer = (props) => {
                 <h4>Our Social Networks</h4>
                 <p>Reach out to us anytime!</p>
                 <div className={classes.Social}>
-                    <a class={classes.Facebook}><i class="fa fa-facebook"></i></a>
-                    <a class={classes.Likedin}><i class="fa fa-linkedin"></i></a>
+                    <a href="#/" className={classes.Facebook}><i className="fa fa-facebook"></i></a>
+                    <a href="#/" className={classes.Likedin}><i className="fa fa-linkedin"></i></a>
                 </div>
             </div>
         </footer>

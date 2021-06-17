@@ -8,11 +8,11 @@ const Topbar = (props) => {
                 <img src="https://www.missioned.in/static/media/NavigationLogo.19c19c2f.svg" alt="MissionEd Logo"/>
                 <h1>MISSIONED</h1>
             </nav>
-            <a href="#" title="Profile Details">
+            <a href="#/" title="Profile Details">
                 <img src="https://www.missioned.in/MissionEd_Store_New/assets/img/navatar.png" alt="Profile"/>
             </a>
             <button title="Log Out">
-                <i class="fa fa-power-off fa-lg"></i>
+                <i className="fa fa-power-off fa-lg"></i>
             </button>
         </header>
     );

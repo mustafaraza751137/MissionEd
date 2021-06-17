@@ -8,7 +8,7 @@ const CopyRight = (props) => {
                 © CopyRight <strong>MissionED</strong>. All Rights Reserved
             </div>
             <div className={classes.Credits}>
-                Designed by<a href="https://missioned.in/">MissionED</a>
+                Designed by<a href="#/">MissionED</a>
             </div>
         </div>
     );
