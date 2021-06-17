@@ -17,11 +17,11 @@ const Footer = (props) => {
                 <h4>Useful Links</h4>
                 <ul>
                     <li>
-                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <i class="fa fa-chevron-right fa-xs"></i>
                         <a href="# " onClick={() => props.onHomeButtonClick(0)}>Home</a>
                     </li>
                     <li>
-                        <i className="fa fa-chevron-right fa-xs"></i>
+                        <i className="fas fa-chevron-right fa-xs"></i>
                         <a href="#/">About us</a>
                     </li>
                     <li>
