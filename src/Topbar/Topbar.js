@@ -12,7 +12,7 @@ const Topbar = (props) => {
                 <img src="https://www.missioned.in/MissionEd_Store_New/assets/img/navatar.png" alt="Profile"/>
             </a>
             <button title="Log Out">
-                <i class="fa fa-power-off fa-lg"></i>
+                <i className="fa fa-power-off fa-lg"></i>
             </button>
         </header>
     );
