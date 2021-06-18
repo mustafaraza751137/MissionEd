@@ -22,7 +22,7 @@ const Footer = (props) => {
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        
+                        <a href="#/">About us</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
