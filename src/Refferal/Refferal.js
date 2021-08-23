@@ -12,7 +12,7 @@ const Refferal = (props) => {
 
             <h1>EARN COINS BY PLAYING IPL-BONANZA!</h1>
             <a href="#/">
-                <img src="https://www.missioned.in/MissionEd_Store_New/IPL-Bonanza/images/ipl2.png" alt="IPL"/>
+                <img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/ipl.jpg?raw=true" alt="IPL"/>
             </a>
             <button className={classes.button}>Play Now</button>
         </div>
