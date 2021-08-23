@@ -38,6 +38,7 @@ class App extends Component {
           <Footer onHomeButtonClick={this.onHomeButtonClick} onClassOptionClick=
           {this.onClassOptionClick} currentPos={this.state.currentPos}/>
         </footer>
+            
         <div className={classes.CopyRight}>
           <CopyRight/>
         </div>
