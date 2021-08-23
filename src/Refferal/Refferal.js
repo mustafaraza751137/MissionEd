@@ -6,7 +6,7 @@ const Refferal = (props) => {
         <div className={classes.Refferal}>
             <h1>REFFERAL PAGE</h1>
             <a href="#/">
-                <img src="https://www.pngarea.com/pngs/607/4222542_visa-gift-card-png-vendor-partner-referral-transparent.png" alt="Refferal"/>
+                <img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/referral.png?raw=true" alt="Refferal"/>
             </a>
             <button className={classes.button}>Check</button>
 

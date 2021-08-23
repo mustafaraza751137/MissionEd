@@ -5,7 +5,7 @@ const StoreSection = (props) => {
     return(
         <div className={classes.container}>
             <div className={classes.content}>
-                <h1><img src="https://www.missioned.in/static/media/NavigationLogo.19c19c2f.svg" alt="Content"/>MISSIONED STORE</h1>
+                <h1><img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/logo.png?raw=true" alt="Content"/>MISSIONED STORE</h1>
                 <h2>The one stop shop for all students of India</h2>
                 <h2>Trusted by 2500+ students</h2>
                 <div>

@@ -5,7 +5,7 @@ const Topbar = (props) => {
     return(
         <header className={classes.header}>
             <nav className={classes.Topbar}>
-                <img src="https://www.missioned.in/static/media/NavigationLogo.19c19c2f.svg" alt="MissionEd Logo"/>
+                <img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/logo.png?raw=true" alt="MissionEd Logo"/>
                 <h1>MISSIONED</h1>
             </nav>
             <a href="#/" title="Profile Details">
