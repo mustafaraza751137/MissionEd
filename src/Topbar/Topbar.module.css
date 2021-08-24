@@ -12,7 +12,6 @@
     justify-content: center;
 }
 .Topbar {
-    /* padding: 0 40px; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -29,8 +28,7 @@
 }
 a img{
     vertical-align: middle;
-    height: 20px;
-    margin-top: 5px;
+    height: 35px;
 }
 button{
     cursor: pointer;
