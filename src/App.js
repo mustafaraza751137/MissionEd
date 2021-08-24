@@ -42,7 +42,7 @@ class App extends Component {
         <div className={classes.CopyRight}>
           <CopyRight/>
         </div>
-        <a href="#/" className={classes.BackToTop}>
+        <a href="#" className={classes.BackToTop}>
           <i className="fa fa-chevron-up"></i>
         </a>
       </div>
