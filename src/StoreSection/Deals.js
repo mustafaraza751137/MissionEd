@@ -18,7 +18,7 @@ class Deals extends Component {
                 title:"Fogg Perfume for Men"
             },
             {
-                Url:"https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/earphone.png?raw=true",
+                Url:"https://raw.githubusercontent.com/mustafaraza751137/MissionEd/main/src/Images/earphone.png",
                 title:"pTron Lite Earphones"
             },
             {
