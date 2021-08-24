@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MissionEd/static/css/main.35b490a5.chunk.css",
-    "main.js": "/MissionEd/static/js/main.4ceaa867.chunk.js",
-    "main.js.map": "/MissionEd/static/js/main.4ceaa867.chunk.js.map",
+    "main.js": "/MissionEd/static/js/main.d1b78354.chunk.js",
+    "main.js.map": "/MissionEd/static/js/main.d1b78354.chunk.js.map",
     "runtime-main.js": "/MissionEd/static/js/runtime-main.ec6eb5cf.js",
     "runtime-main.js.map": "/MissionEd/static/js/runtime-main.ec6eb5cf.js.map",
     "static/js/2.0ab93326.chunk.js": "/MissionEd/static/js/2.0ab93326.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ec6eb5cf.js",
     "static/js/2.0ab93326.chunk.js",
     "static/css/main.35b490a5.chunk.css",
-    "static/js/main.4ceaa867.chunk.js"
+    "static/js/main.d1b78354.chunk.js"
   ]
 }
