@@ -14,7 +14,7 @@ const StoreSection = (props) => {
                 </div>
             </div>
             <div className={classes.image}>
-                <img src="https://www.missioned.in/MissionEd_Store_New/assets/img/hero-img.png" alt="fluid"/>
+                <img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/fluid.png?raw=true" alt="fluid"/>
             </div>
         </div>
     );
