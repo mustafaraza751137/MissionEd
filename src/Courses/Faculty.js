@@ -5,19 +5,19 @@ class Courses extends Component {
     render(){
         this.setState = [
             {
-                Url: "https://www.missioned.in/MissionEd_Store_New/assets/img/LOGO_IIT%20BOMBAY.jpg",
+                Url: "https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/iit-bombay.png?raw=true",
                 title:"IIT BOMBAY"
             },
             {
-                Url: "https://www.missioned.in/MissionEd_Store_New/assets/img/IIT_KHARAGPUR.png",
+                Url: "https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/iit-kharagpur.jpg?raw=true",
                 title:"IIT KHARAGPUR"
             },
             {
-                Url: "https://www.missioned.in/MissionEd_Store_New/assets/img/LOGO_IIT%20KANPUR.jpg",
+                Url: "https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/iit-kanpur.png?raw=true",
                 title:"IIT KANPUR"
             },
             {
-                Url:"https://www.missioned.in/MissionEd_Store_New/assets/img/LOGO_IIT%20DELHI.jpg",
+                Url:"https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/iit-delhi.png?raw=true",
                 title:"IIT DELHI"
             },
         ];

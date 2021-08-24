@@ -1,6 +1,5 @@
 import React , {Component} from 'react';
 import classes from './../Cards.module.css'; 
-import headphone from './../Images/headphone.jpg';
 
 class Deals extends Component {
     render(){

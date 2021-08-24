@@ -5,19 +5,19 @@ class Courses extends Component {
     render(){
         this.setState = [
             {
-                Url: "https://www.missioned.in/MissionEd_Store_New/assets/img/courses/entrepreneneurs.jpg",
+                Url: "https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/entrepreneurship.png?raw=true",
                 title:"Entrepreneurship"
             },
             {
-                Url: "https://www.missioned.in/MissionEd_Store_New/assets/img/courses/Finance.jpg",
+                Url: "https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/finance.jpg?raw=true",
                 title:"Finance"
             },
             {
-                Url: "https://www.missioned.in/MissionEd_Store_New/assets/img/courses/datascience.jpg",
+                Url: "https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/data-science.jpg?raw=true",
                 title:"Data Science"
             },
             {
-                Url:"https://www.missioned.in/MissionEd_Store_New/assets/img/courses/Consulting.jpg",
+                Url:"https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/consultancy.jpg?raw=true",
                 title:"Consultancy"
             },
         ];

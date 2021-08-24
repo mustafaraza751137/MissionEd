@@ -9,7 +9,7 @@ const Topbar = (props) => {
                 <h1>MISSIONED</h1>
             </nav>
             <a href="#/" title="Profile Details">
-                <img src="https://www.missioned.in/MissionEd_Store_New/assets/img/navatar.png" alt="Profile"/>
+                <img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/profile-logo.png?raw=true" alt="Profile"/>
             </a>
             <button title="Log Out">
                 <i className="fa fa-power-off fa-lg"></i>
