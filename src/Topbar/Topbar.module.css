@@ -26,9 +26,11 @@
     height: 36px;
     padding-left: 20px;
 }
-a img{
-    vertical-align: middle;
-    height: 35px;
+.profileIcon{
+    padding-top: 5px;
+}
+.profileIcon:hover{
+    color: rgb(173, 7, 7) !important;
 }
 button{
     cursor: pointer;

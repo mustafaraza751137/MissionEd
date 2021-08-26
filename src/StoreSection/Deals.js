@@ -62,7 +62,7 @@ class Deals extends Component {
                 prop4: "Colour: Black",
             },
             {
-                Url: "https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/book.jpg?raw=true",
+                Url: "https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/think-and-grow-rich.jpg?raw=true",
                 title:"Think and Grow Rich",
                 description: "Think and Grow Rich (DELUXE HARDBOUND EDITION) Hardcover – 1 December 2019 , by Napoleon Hill",
                 prop1: "MRP: ₹349.00",
@@ -71,7 +71,7 @@ class Deals extends Component {
                 prop4: "Print Length: 336 pages",
             },
             {
-                Url:"https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/amazon.jpg?raw=true",
+                Url:"https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/mask.jpg?raw=true",
                 title:"Cotton Face Mask",
                 description: "Lee Cooper Lightweight Cotton Face Mask for Outdoor Protection, Super Breathable & Resuable Cloth - Pack of 2",
                 prop1: "MRP: ₹399.00",

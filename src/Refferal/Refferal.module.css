@@ -13,12 +13,6 @@
     height: auto;
     border-style: none;
 }
-a:hover{
-    color: transparent;
-}
-img:hover{
-    color: transparent;
-}
 .button{
     margin: 20px;
     width: 100px;

@@ -5,11 +5,11 @@ const Topbar = (props) => {
     return(
         <header className={classes.header}>
             <nav className={classes.Topbar}>
-                <img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/logo.png?raw=true" alt="MissionEd Logo"/>
+                <img src="https://logodix.com/logo/1122403.png" alt="MissionEd Logo"/>
                 <h1>MISSIONED</h1>
             </nav>
-            <a href="#/" title="Profile Details">
-                <img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/profile-logo.png?raw=true" alt="Profile"/>
+            <a href="#/" className={classes.profileIcon} title="Profile Details">
+                <i className="fa fa-user fa-2x" aria-hidden="true"></i>
             </a>
             <button title="Log Out">
                 <i className="fa fa-power-off fa-lg"></i>
