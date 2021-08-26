@@ -1,5 +1,6 @@
 .FooterNews{
     background-color: #f0f9fd;
+    box-sizing: border-box;
     padding: 30px 0;
 }
 .Title h4{

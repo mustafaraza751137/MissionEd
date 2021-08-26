@@ -18,27 +18,27 @@ const Footer = (props) => {
                 <ul>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#" onClick={() => props.onHomeButtonClick(0)}>Home</a>
+                        <a href="# " onClick={() => props.onHomeButtonClick(0)}>Home</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">About us</a>
+                        <a href="# ">About us</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">Services</a>
+                        <a href="# ">Services</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">Careers</a>
+                        <a href="# ">Careers</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">Terms of service</a>
+                        <a href="# ">Terms of service</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">Privacy policy</a>
+                        <a href="# ">Privacy policy</a>
                     </li>
                 </ul>
             </div>
@@ -47,23 +47,23 @@ const Footer = (props) => {
                 <ul>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#" onClick={() => props.onClassOptionClick(0)}>MissionEd Store</a>
+                        <a href="# " onClick={() => props.onClassOptionClick(0)}>MissionEd Store</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#" onClick={() => props.onClassOptionClick(1)}>MissionEd Classes</a>
+                        <a href="# " onClick={() => props.onClassOptionClick(1)}>MissionEd Classes</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#" onClick={() => props.onClassOptionClick(2)}>MissionEd Classes (School)</a>
+                        <a href="# " onClick={() => props.onClassOptionClick(2)}>MissionEd Classes (School)</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">MissionEd Referral</a>
+                        <a href="# ">MissionEd Referral</a>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="#">MissionEd Pro <span className={classes.badge}>NEW</span></a>
+                        <a href="# ">MissionEd Pro <span className={classes.badge}>NEW</span></a>
                     </li>
                 </ul>
             </div>

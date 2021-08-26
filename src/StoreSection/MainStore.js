@@ -21,12 +21,12 @@ const MainStore = (props) => {
                         </h1>
 
                         <img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/college.png?raw=true" alt="Class"/>
-                        <a href="#" className={classes1.MissionEdClasses} onClick={() => props.onClassOptionClick(1)}>
+                        <a href="# " className={classes1.MissionEdClasses} onClick={() => props.onClassOptionClick(1)}>
                             Go to MissionEd Classes(for College Students)
                         </a>
 
                         <img src="https://github.com/mustafaraza751137/MissionEd/blob/main/src/Images/school.jpg?raw=true" alt="Class"/>
-                        <a  href="#" className={classes1.MissionEdClasses} onClick={() => props.onClassOptionClick(2)}>
+                        <a  href="# " className={classes1.MissionEdClasses} onClick={() => props.onClassOptionClick(2)}>
                             Go to MissionEd Classes(8-12)
                         </a>
                     </div>

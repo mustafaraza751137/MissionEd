@@ -1,0 +1,68 @@
+.AddressSection{
+    position: fixed;
+    width: 800px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 10px #666666,
+                -2px -2px 10px #666666;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-45%);
+    padding: 30px;
+    text-align: center;
+    z-index: 3;
+}
+.Address{
+    width: 100%;
+}
+.Address input{
+    font-size: 18px;
+    width: 40%;
+    margin: 10px;
+    padding: 15px;
+}
+.Address textarea{
+    resize: none;
+    font-size: 18px;
+    width: 87%;
+    margin: 10px;
+    padding: 15px;
+}
+.closeBtn{
+    background-color: white;
+    color: dodgerblue;
+    font-size: 20px;
+    display: inline;
+}
+.deliverHere{
+    padding: 15px;
+    width: 300px;
+    margin-top: 20px;
+    display: inline;
+    background-color: #fb641b;
+    color: white;
+    font-size: 20px;
+}
+.deliverHere:hover{
+    background-color: #fba51b;
+}
+@media only screen and (max-width: 480px){
+    .AddressSection{
+        width: 100%;
+        overflow: scroll;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translate(0,0);
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .Address input{
+        width: 87%;
+    }
+    .deliverHere{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
