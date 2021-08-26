@@ -13,7 +13,7 @@ class Popup extends Component {
         this.setState({showAddress:false})
     }
     onDeliverBtnClick = () => {
-        alert("your order has been placed")
+        alert("your order has been placed \n It will reach out to you in 7 days \n Thank You for shopping !")
     }
     render(){
         if(this.props.buttonPopup===true){
@@ -33,8 +33,6 @@ class Popup extends Component {
                             <h3>{this.props.currentPos.prop4}</h3>
                             <h4>Free Delivery</h4>
                             <button className={classes.buyNow} onClick={() => this.onButtonClick()}>Buy Now</button>
-                            {/* <Address buttonPopup={this.state.showAddress} onCloseBtnClick={this.onCloseBtnClick} 
-                                onDeliverBtnClick={this.onDeliverBtnClick}/> */}
                         </div>
                     </div>
                     <Address buttonPopup={this.state.showAddress} onCloseBtnClick={this.onCloseBtnClick} 
