@@ -58,6 +58,9 @@
         padding: 20px;
         box-sizing: border-box;
     }
+    .AddressSection::-webkit-scrollbar{
+        display: none;
+    }
     .Address input{
         width: 87%;
     }

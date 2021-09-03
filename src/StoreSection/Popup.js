@@ -13,7 +13,7 @@ class Popup extends Component {
         this.setState({showAddress:false})
     }
     onDeliverBtnClick = () => {
-        alert("your order has been placed \n It will reach out to you in 7 days \n Thank You for shopping !")
+        alert("your order has been placed \nIt will reach out to you in 7 days \nThank You for shopping! 😊")
     }
     render(){
         if(this.props.buttonPopup===true){
