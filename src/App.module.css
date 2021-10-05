@@ -2,39 +2,6 @@
   text-align: center;
   font-family: "Dosis", sans-serif;
 }
-.product{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.deals{
-  width: 65%;
-}
-.study{
-  margin-left: 30px;
-  width: 35%;
-}
-main{
-  box-sizing: border-box;
-  background-color: #f4fbfe;
-  padding: 50px 0;
-}
-.product{
-  margin: 0 7%;
-  margin-bottom: 0;
-}
-@media screen and (max-width: 750px) {
-  .product{
-    display: block;
-  }
-  .deals{
-    width: 100%;
-  }
-  .study{
-    width: 100%;
-    margin: auto;
-  }
-}
 .BackToTop{
   position: fixed;
   z-index: 100;
@@ -48,6 +15,8 @@ main{
 .BackToTop i{
   color: white;
 }
+
+/* In MainCourses.js */
 .Faculty{
   padding-top: 50px; 
 }

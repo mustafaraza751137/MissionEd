@@ -22,3 +22,31 @@
     border-radius: 5px;
     margin: 20px 10px;
 }
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .deals{
+    width: 65%;
+  }
+  .study{
+    margin-left: 30px;
+    width: 35%;
+  }
+  .product{
+    margin: 0 7%;
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: 750px) {
+    .product{
+      display: block;
+    }
+    .deals{
+      width: 100%;
+    }
+    .study{
+      width: 100%;
+      margin: auto;
+    }
+  }
