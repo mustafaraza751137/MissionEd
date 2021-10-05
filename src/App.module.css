@@ -1,22 +1,10 @@
 .App {
   text-align: center;
   font-family: "Dosis", sans-serif;
+  padding-top: 60px;
+  box-sizing: border-box;
 }
-.BackToTop{
-  position: fixed;
-  z-index: 100;
-  color: white;
-  right: 15px;
-  bottom: 15px;
-  border-radius: 5px;
-  background-color: #ff6600;
-  padding: 10px 12px;
-}
-.BackToTop i{
-  color: white;
-}
-
-/* In MainCourses.js */
-.Faculty{
-  padding-top: 50px; 
+main{
+  box-sizing: border-box;
+  background-color: #f4fbfe;
 }

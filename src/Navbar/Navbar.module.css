@@ -45,6 +45,24 @@ button i{
     color: white;
     display: block;
 }
+.CartIconContainer{
+    position: relative;
+}
+.CartIcon{
+    height: 45px;
+    margin-right: 20px;
+}
+.CartCount{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top: -50px;
+    background-color: yellow;
+    color: black;
+    width: 20px;
+    border-radius: 50%;
+} 
 @media screen and (max-width: 600px) {
     .header{
         padding: 20px 10px;

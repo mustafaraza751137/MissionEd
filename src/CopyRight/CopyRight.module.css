@@ -21,6 +21,19 @@
     color: #0f394c;
     padding-right: 80px;
 }
+.BackToTop{
+    position: fixed;
+    z-index: 100;
+    color: white;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 5px;
+    background-color: #ff6600;
+    padding: 10px 12px;
+}
+.BackToTop i{
+    color: white;
+}
 @media screen and (max-width: 550px) {
     .Container{
         display: block;

@@ -10,6 +10,9 @@ const CopyRight = (props) => {
             <div className={classes.Credits}>
                 Designed by<a href="#/">MissionED</a>
             </div>
+            <a href="# " className={classes.BackToTop}>
+                <i className="fa fa-chevron-up"></i>
+            </a>
         </div>
     );
 }

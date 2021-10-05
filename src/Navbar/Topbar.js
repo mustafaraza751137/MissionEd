@@ -1,5 +1,6 @@
 import React from 'react';
-import classes from './Topbar.module.css';
+import classes from './Navbar.module.css';
+import {Link} from 'react-router-dom'
 
 const Topbar = (props) => {
     return(
@@ -14,6 +15,15 @@ const Topbar = (props) => {
             <button title="Log Out">
                 <i className="fa fa-power-off fa-lg"></i>
             </button>
+            <Link to="/Cart">
+                <div className={classes.CartIconContainer}>
+                    <img className={classes.CartIcon} src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" alt="CartIcon"/>
+                    <span className={classes.CartCount}>
+                        {/* {props.count} */}
+                        3
+                    </span>
+                </div>
+            </Link> 
         </header>
     );
 }

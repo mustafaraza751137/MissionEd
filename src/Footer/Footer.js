@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Footer.module.css';
+import {Link} from 'react-router-dom';
 
 const Footer = (props) => {
     return(
@@ -18,7 +19,9 @@ const Footer = (props) => {
                 <ul>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="# " onClick={() => props.onHomeButtonClick(0)}>Home</a>
+                        <Link to="/">
+                            <a href="# ">Home</a>
+                        </Link>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
@@ -47,15 +50,21 @@ const Footer = (props) => {
                 <ul>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="# " onClick={() => props.onClassOptionClick(0)}>MissionEd Store</a>
+                        <Link to="/">
+                            <a href="# ">MissionEd Store</a>
+                        </Link>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="# " onClick={() => props.onClassOptionClick(1)}>MissionEd Classes</a>
+                        <Link to="/College">
+                            <a href="# ">MissionEd Classes</a>
+                        </Link>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <a href="# " onClick={() => props.onClassOptionClick(2)}>MissionEd Classes (School)</a>
+                        <Link to="/School">
+                            <a href="# ">MissionEd Classes (School)</a>
+                        </Link>
                     </li>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>

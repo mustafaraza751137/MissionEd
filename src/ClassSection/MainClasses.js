@@ -1,25 +1,22 @@
-import React from 'react';
-import classes from '../App.module.css';
+import React, {useLayoutEffect} from 'react';
 import ClassSection from './ClassSection';
 import SchoolClasses from './SchoolClasses';
 import Faculty from '../Courses/Faculty';
+import Feedback from '../Feedback/Feedback';
+import NewsLetter from '../NewsLetter/NewsLetter';
 
 const MainClasses = (props) => {
-    if(props.currentPos===2){
-        return(
-            <div>
-                <ClassSection/>
-                <div className={classes.Classes}>
-                    <SchoolClasses/>
-                </div>
-                <div className={classes.Faculty}>
-                    <Faculty/>
-                </div>
-            </div>
-        );
-    }
-    else{
-        return null;
-    }
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+    return(
+        <div>
+            <ClassSection/>
+            <SchoolClasses/>
+            <Faculty/>
+            <Feedback/>
+            <NewsLetter/>
+        </div>
+    );
 }
 export default MainClasses;
