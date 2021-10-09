@@ -6,7 +6,7 @@ import CopyRight from './CopyRight/CopyRight';
 import Home from './StoreSection/Home';
 import MainCourses from './Courses/MainCourses';
 import MainClasses from './ClassSection/MainClasses';
-import Cart from './Cart';
+import CartContainer from './Cart/CartContainer';
 import {Route, Switch} from 'react-router-dom';
 
 const App = (props) => {
@@ -17,7 +17,7 @@ const App = (props) => {
         <Switch>
           <Route exact path="/College" component={MainCourses}/>
           <Route exact path="/School" component={MainClasses}/>
-          <Route exact path="/Cart" component={Cart}/>
+          <Route exact path="/Cart" component={CartContainer}/>
           <Route path="/" component={Home}/>
         </Switch>
       </main>

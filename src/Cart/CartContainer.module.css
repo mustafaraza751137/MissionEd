@@ -1,0 +1,42 @@
+.CartContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+.CartItems{
+    box-shadow: 5px 5px 10px grey,-5px -5px 10px grey;
+    border-radius: 10px;
+    margin: 30px 30px;
+    padding: 20px;
+    width: 60%;
+}
+.CartPrice{
+    box-shadow: 5px 5px 10px grey,-5px -5px 10px grey;
+    border-radius: 10px;
+    margin: 30px 30px;
+    padding: 20px;
+    width: 40%;
+}
+.buyBtn{
+    padding: 10px 20px;
+    background-color: tomato;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto;
+}
+@media screen and (max-width: 750px) {
+    .CartContainer{
+      flex-direction: column;
+    }
+    .CartItems{
+        width: 100%;
+    }
+    .CartPrice{
+        width: 100%;
+    }
+}

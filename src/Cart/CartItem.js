@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './CartItem.module.css';
 
 const CartItem = (props) => {
-    const { price, title, qty, img } = props.product;
+    const { price, title, qty, Url, mrp } = props.product;
     const {
         product,
         onIncreaseQuantity,
@@ -12,12 +12,13 @@ const CartItem = (props) => {
     return (
         <div className={classes.CartItem}>
             <div className={classes.leftBlock}>
-                <img alt="item-img" className={classes.itemImage} src={img}/>
+                <img alt="item-img" className={classes.itemImage} src={Url}/>
             </div>
             <div className={classes.rightBlock}>
-                <div>{title}</div>
-                <div>Rs. {price}</div>
-                <div>Qty: {qty}</div>
+                <h2>{title}</h2>
+                <del><h3>MRP: ₹{mrp}</h3></del>
+                <h3>Price: ₹{price}</h3>
+                <h3>Qty: {qty}</h3>
                 <div className={classes.cartItemActions}>
                     <img 
                         alt="increase" 
