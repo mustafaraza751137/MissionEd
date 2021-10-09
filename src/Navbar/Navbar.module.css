@@ -61,6 +61,7 @@ button i{
     background-color: yellow;
     color: black;
     width: 20px;
+    height: 20px;
     border-radius: 50%;
 } 
 @media screen and (max-width: 600px) {

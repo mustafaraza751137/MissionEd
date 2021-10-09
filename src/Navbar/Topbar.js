@@ -20,7 +20,7 @@ const Topbar = (props) => {
                     <img className={classes.CartIcon} src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" alt="CartIcon"/>
                     <span className={classes.CartCount}>
                         {/* {props.count} */}
-                        3
+                        {/* 3 */}
                     </span>
                 </div>
             </Link> 

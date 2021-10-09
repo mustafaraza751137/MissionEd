@@ -1,7 +1,7 @@
 import React from 'react';
-import CartItem from './CartItem';
+import Cart from './Cart';
 
-class Cart extends React.Component {
+class CartContainer extends React.Component {
   constructor () {
     super();
     this.state = {
@@ -48,7 +48,7 @@ class Cart extends React.Component {
     const { products } = this.state;
     const index = products.indexOf(product);
 
-    if (products[index].qty === 1) {
+    if (products[index].qty === 0) {
       return;
     }
 
@@ -87,8 +87,14 @@ class Cart extends React.Component {
   render () {
     const { products } = this.state;
     return (
-      <div className="cart">
-        {products.map((product) => {
+        <div className="cart">
+          <Cart 
+            products={products}
+            onIncreaseQuantity={this.increaseQuantity}
+            onDecreaseQuantity={this.decreaseQuantity}
+            onDeleteProduct={this.handleDeleteProduct}
+          />
+        {/* {products.map((product) => {
           return (
             <CartItem
               product={product}
@@ -98,7 +104,7 @@ class Cart extends React.Component {
               onDeleteProduct={this.handleDeleteProduct}
             />
           )
-        })}
+        })} */}
         <h1> count={this.getCartCount()}</h1>
         <h1>Total:{this.getCartTotal()}</h1>
       </div>
@@ -106,4 +112,4 @@ class Cart extends React.Component {
   }
 }
 
-export default Cart;
+export default CartContainer;

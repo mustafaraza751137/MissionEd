@@ -1,0 +1,25 @@
+.CartItem{
+    display: flex;
+    width: 100%;
+    max-height: 400px;
+}
+.leftBlock{
+    width: 20%;
+    margin: 10px;
+}
+.itemImage{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.righBlock{
+    width: 80%;
+    margin: 10px;
+}
+.cartItemActions{
+    display: flex;
+}
+.actionIcons{
+    height: 20px;
+    margin: 10px;
+}

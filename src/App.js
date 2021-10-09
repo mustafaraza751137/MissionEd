@@ -1,4 +1,4 @@
-import React , {useLayoutEffect} from 'react';
+import React from 'react';
 import classes from './App.module.css';
 import Navbar from './Navbar/Topbar';
 import Footer from './Footer/Footer';
@@ -15,23 +15,13 @@ const App = (props) => {
       <Navbar/>
       <main>
         <Switch>
-          <Route exact path="/">
-            <Home/>
-          </Route>
-          <Route exact path="/College">
-            <MainCourses/>
-          </Route>
-          <Route exact path="/School">
-            <MainClasses/> 
-          </Route>
-          <Route exact path="/Cart">
-            <Cart/>
-          </Route>
+          <Route exact path="/College" component={MainCourses}/>
+          <Route exact path="/School" component={MainClasses}/>
+          <Route exact path="/Cart" component={Cart}/>
+          <Route path="/" component={Home}/>
         </Switch>
       </main>
-
-      <Footer/>
-          
+      <Footer/> 
       <CopyRight/>
     </div>
   );
