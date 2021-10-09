@@ -45,10 +45,22 @@
     padding: 15px;
     width: 60%;
     color: white;
-    background-color: rgb(228, 163, 13);
+    background-color: #FB641B;
     border-radius: 30px;
 }
 .buyNow:hover{
+    background-color: #e6560e;
+}
+.addToCart{
+    margin-bottom: 20px;
+    font-size:18px;
+    padding: 15px;
+    width: 60%;
+    color: white;
+    background-color: rgb(228, 163, 13);
+    border-radius: 30px;
+}
+.addToCart:hover{
     background-color: rgb(228, 128, 13);
 }
 @media only screen and (max-width: 480px){

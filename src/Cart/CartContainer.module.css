@@ -22,12 +22,15 @@
 }
 .buyBtn{
     padding: 10px 20px;
-    background-color: tomato;
+    background-color: #FB641B;
     width: 200px;
     color: white;
     font-size: 18px;
     font-weight: 600;
     margin: auto;
+}
+.buyBtn:hover{
+    background-color: #e6560e;
 }
 @media screen and (max-width: 750px) {
     .CartContainer{

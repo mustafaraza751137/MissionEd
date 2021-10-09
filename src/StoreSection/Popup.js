@@ -32,6 +32,7 @@ class Popup extends Component {
                             <h3>{this.props.currentPos.prop3}</h3>
                             <h3>{this.props.currentPos.prop4}</h3>
                             <h4>Free Delivery</h4>
+                            <button className={classes.addToCart}>Add To Cart</button>
                             <button className={classes.buyNow} onClick={() => this.onButtonClick()}>Buy Now</button>
                         </div>
                     </div>
