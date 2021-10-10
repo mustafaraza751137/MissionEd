@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './CartContainer.module.css';
 import Cart from './Cart';
+import {Link} from 'react-router-dom';
 
 class CartContainer extends React.Component {
   constructor () {
@@ -125,7 +126,9 @@ class CartContainer extends React.Component {
           <h1>Discount: ₹{this.getTotalMRP()-this.getCartTotal()}</h1>
           <h1>Total Price:  ₹{this.getCartTotal()}</h1>
           <hr/>
-          <button className={classes.buyBtn}>Buy Now</button>
+          <Link to="/Address">
+            <button className={classes.buyBtn}>Buy Now</button>
+          </Link>
         </div>
       </div>
     );

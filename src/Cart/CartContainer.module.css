@@ -20,6 +20,9 @@
     padding: 20px;
     width: 40%;
 }
+.CartPrice h1{
+    text-align: left;
+}
 .buyBtn{
     padding: 10px 20px;
     background-color: #FB641B;
@@ -35,6 +38,7 @@
 @media screen and (max-width: 750px) {
     .CartContainer{
       flex-direction: column;
+      padding: 0 30px;
     }
     .CartItems{
         width: 100%;
