@@ -1,20 +1,8 @@
 import React , {Component} from 'react';
 import classes from './Popup.module.css';
-import Address from './Address';
+import { Link } from 'react-router-dom';
 
 class Popup extends Component {
-    state = {
-        showAddress: false,
-    }
-    onButtonClick = () => {
-        this.setState({showAddress:true})
-    }
-    onCloseBtnClick = () => {
-        this.setState({showAddress:false})
-    }
-    onDeliverBtnClick = () => {
-        alert("your order has been placed \nIt will reach out to you in 7 days \nThank You for shopping! 😊")
-    }
     render(){
         if(this.props.buttonPopup===true){
             return (
@@ -32,12 +20,14 @@ class Popup extends Component {
                             <h3>{this.props.currentPos.prop3}</h3>
                             <h3>{this.props.currentPos.prop4}</h3>
                             <h4>Free Delivery</h4>
-                            <button className={classes.addToCart}>Add To Cart</button>
-                            <button className={classes.buyNow} onClick={() => this.onButtonClick()}>Buy Now</button>
+                            <Link to="/Cart">
+                                <button className={classes.addToCart}>Add To Cart</button>
+                            </Link>
+                            <Link to="/Address">
+                                <button className={classes.buyNow}>Buy Now</button>
+                            </Link>
                         </div>
                     </div>
-                    <Address buttonPopup={this.state.showAddress} onCloseBtnClick={this.onCloseBtnClick} 
-                        onDeliverBtnClick={this.onDeliverBtnClick}/>
                 </main>
             )
         }

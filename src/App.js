@@ -8,7 +8,8 @@ import MainCourses from './Courses/MainCourses';
 import MainClasses from './ClassSection/MainClasses';
 import CartContainer from './Cart/CartContainer';
 import Address from './StoreSection/Address';
-import {Route, Switch} from 'react-router-dom';
+import Product  from './StoreSection/Popup';
+import {Route, Switch, Router} from 'react-router-dom';
 
 const App = (props) => {
   return(
@@ -19,10 +20,8 @@ const App = (props) => {
           <Route exact path="/College" component={MainCourses}/>
           <Route exact path="/School" component={MainClasses}/>
           <Route exact path="/Cart" component={CartContainer}/>
-          {/* <Route exact path="/Address">
-            <Address buttonPopup={true}/>
-          </Route>  */}
-          {/* component={Address}/> */}
+          <Route exact path="/Address" component={Address}/>
+          <Route exact path="/Product" component={Product}/>
           <Route path="/" component={Home}/>
         </Switch>
       </main>
