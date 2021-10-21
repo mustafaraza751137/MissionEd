@@ -50,7 +50,7 @@ const Footer = (props) => {
                 <ul>
                     <li>
                         <i className="fa fa-chevron-right fa-xs"></i>
-                        <Link to="/">
+                        <Link to="/Store">
                             <a href="# ">MissionEd Store</a>
                         </Link>
                     </li>

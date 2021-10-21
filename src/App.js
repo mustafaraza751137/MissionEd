@@ -9,6 +9,7 @@ import MainClasses from './ClassSection/MainClasses';
 import CartContainer from './Cart/CartContainer';
 import Address from './StoreSection/Address';
 import Product  from './StoreSection/Popup';
+import Store  from './StoreSection/Store';
 import {Route, Switch, Router} from 'react-router-dom';
 
 const App = (props) => {
@@ -22,6 +23,7 @@ const App = (props) => {
           <Route exact path="/Cart" component={CartContainer}/>
           <Route exact path="/Address" component={Address}/>
           <Route exact path="/Product" component={Product}/>
+          <Route exact path="/Store" component={Store}/>
           <Route path="/" component={Home}/>
         </Switch>
       </main>

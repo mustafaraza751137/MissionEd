@@ -14,6 +14,12 @@
     z-index: 2;
     box-sizing: border-box;
 }
+.itemBox{
+    background-color: white;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
 .Wrapper{
     position: relative;
 }
@@ -27,6 +33,7 @@
     font-size: 30px;
 }
 .itemImage{
+    max-width: 400px;
     width: 50%;
 }
 .itemImage img{
