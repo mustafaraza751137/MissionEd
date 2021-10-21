@@ -19,6 +19,7 @@
     display: flex;
     margin: 20px;
     padding: 20px;
+    border-radius: 10px;
 }
 .Wrapper{
     position: relative;
@@ -81,10 +82,12 @@
         left: 5%;
         transform: translate(0,0);
         box-sizing: border-box;
-        /* padding: 20px; */
     }
     .Popup::-webkit-scrollbar{
         display: none;
+    }
+    .itemBox{
+        flex-direction: column;
     }
     .itemImage{
         width: 100%;
