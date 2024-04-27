@@ -1,0 +1,111 @@
+.container{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    font-family: "Dosis", sans-serif;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.content h1{
+    margin: 0;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #0f394c;
+}
+.content h2 {
+    color: #1c698c;
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.content img{
+    height: 40px;
+}
+.content div{
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.start{
+    background-color: #ff6600;
+    padding: 10px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-right: 5px;
+    color: white;
+}
+.pro{
+    background-color: #ff6600;
+    padding: 10px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: white;
+}
+.start:hover , .pro:hover{
+    background-color: #76c7ed;
+}
+span{
+    color: white;
+}
+.badge{
+    font-weight: 700;
+    font-size: 75%;
+    padding: .25em .4em;
+    line-height: 1;
+    text-align: center;
+    border-radius: .25rem;
+    /* display: inline-block; */
+    color: #fff;
+    background-color: #dc3545;
+}
+.image{
+    width: 50%;
+    height: 300px;
+}
+.image img{
+    height: 100%;
+}
+@media screen and (max-width: 1000px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .image{
+        height: auto;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 130px 0;
+    }
+    .content h1{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .content div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pro{
+        margin-top: 20px;
+    }
+}

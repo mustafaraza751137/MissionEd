@@ -1,0 +1,25 @@
+.Refferal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Refferal h1{
+    display: block;
+}
+.Refferal img{
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    border-style: none;
+}
+.button{
+    margin: 20px;
+    width: 100px;
+    background-color: #17a2b8;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+}

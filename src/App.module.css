@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+main{
+  box-sizing: border-box;
+  background-color: #f4fbfe;
+}

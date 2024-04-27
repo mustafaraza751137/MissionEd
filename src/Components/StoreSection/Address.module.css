@@ -1,0 +1,61 @@
+.AddressSection{
+    padding: 20px;
+    text-align: center;
+}
+.Address{
+    width: 100%;
+}
+.Address input{
+    font-size: 18px;
+    width: 40%;
+    margin: 10px;
+    padding: 15px;
+}
+.Address textarea{
+    resize: none;
+    font-size: 18px;
+    width: 87%;
+    margin: 10px;
+    padding: 15px;
+}
+.closeBtn{
+    background-color: white;
+    color: dodgerblue;
+    font-size: 20px;
+    display: inline;
+}
+.deliverHere{
+    padding: 15px;
+    width: 300px;
+    margin-top: 20px;
+    display: inline;
+    background-color: #fb641b;
+    color: white;
+    font-size: 20px;
+}
+.deliverHere:hover{
+    background-color: #fba51b;
+}
+@media only screen and (max-width: 480px){
+    .AddressSection{
+        /* width: 90%;
+        overflow: scroll;
+        height: 85%;
+        position: fixed;
+        top: 14%;
+        left: 5%;
+        transform: translate(0,0);
+        padding: 20px;
+        box-sizing: border-box; */
+    }
+    .AddressSection::-webkit-scrollbar{
+        display: none;
+    }
+    .Address input{
+        width: 87%;
+    }
+    .deliverHere{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

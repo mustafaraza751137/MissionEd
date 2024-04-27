@@ -1,0 +1,45 @@
+.FooterNews{
+    background-color: #f0f9fd;
+    box-sizing: border-box;
+    padding: 30px 0;
+}
+.Title h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 40px;
+    color: #0f394c;
+}
+.Title h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+form{
+    padding-bottom: 20px;
+}
+.Email{
+    padding: 12px;
+    width: 500px;
+    max-width: 90%;
+    cursor: text;
+    font: 400 16px Arial;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+}
+.Subscribe{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 12px 20px;
+    font: 400 16px Arial;
+    border: none;
+    background-color: #ff6600;
+    box-shadow: 1px 1px 10px gray;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 0 4px 4px 0;
+}
+.Subscribe:hover{
+    background-color: #76c7ed;
+}
