@@ -10,7 +10,7 @@ import CartContainer from './Components/Cart/CartContainer';
 import Address from './Components/StoreSection/Address';
 import Product  from './Components/StoreSection/Popup';
 import Store  from './Components/StoreSection/Store';
-import {Route, Switch, Router} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 
 const App = (props) => {
   return(
